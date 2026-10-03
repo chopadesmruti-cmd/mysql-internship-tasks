@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kiran Academy - IT Training</title>
+
+    <link rel="stylesheet" href="project@01.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                Kiran <span>Academy</span>
+            </div>
+
+            <button class="menu-button" id="menuButton">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#courses">Courses</a>
+                </li>
+
+                <li>
+                    <a href="#why-us">Why Us</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-title">
+                WELCOME TO KIRAN ACADEMY
+            </p>
+
+            <h1>
+                Build Your
+                <span>IT Career</span>
+                With Us
+            </h1>
+
+            <p>
+                Learn industry-ready skills with practical training,
+                experienced trainers and career-focused courses.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#courses" class="btn">
+                    Explore Courses
+                </a>
+
+                <a href="#contact" class="btn second-btn">
+                    Join Demo Class
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about" id="about">
+
+        <div class="section-title">
+
+            <p>ABOUT US</p>
+
+            <h2>
+                Learn Today, Build Your Future
+            </h2>
+
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <h3>
+                    Welcome to Kiran Academy
+                </h3>
+
+                <p>
+                    Kiran Academy is an IT training platform
+                    focused on helping students develop practical
+                    technical skills.
+                </p>
+
+                <p>
+                    Our courses are designed for beginners as well
+                    as students who want to improve their existing
+                    programming and software skills.
+                </p>
+
+                <button class="btn" onclick="showAboutMessage()">
+                    Learn More
+                </button>
+
+            </div>
+
+            <div class="about-card">
+
+                <div class="number">
+                    01
+                </div>
+
+                <h3>
+                    Practical Learning
+                </h3>
+
+                <p>
+                    Learn concepts through examples and
+                    hands-on practice.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= COURSES ================= -->
+
+    <section class="courses" id="courses">
+
+        <div class="section-title">
+
+            <p>OUR COURSES</p>
+
+            <h2>
+                Popular IT Courses
+            </h2>
+
+            <p class="description">
+                Choose a course and start developing your
+                technical skills.
+            </p>
+
+        </div>
+
+
+        <div class="course-container">
+
+
+            <!-- Course 1 -->
+
+            <div class="course-card">
+
+                <div class="course-icon">
+                    ☕
+                </div>
+
+                <h3>
+                    Java Full Stack
+                </h3>
+
+                <p>
+                    Learn Java, SQL, HTML, CSS, JavaScript
+                    and backend development.
+                </p>
+
+                <button
+                    class="course-button"
+                    onclick="showCourse('Java Full Stack')">
+
+                    View Course
+
+                </button>
+
+            </div>
+
+
+            <!-- Course 2 -->
+
+            <div class="course-card">
+
+                <div class="course-icon">
+                    🐍
+                </div>
+
+                <h3>
+                    Python Full Stack
+                </h3>
+
+                <p>
+                    Learn Python programming, databases,
+                    frontend and backend development.
+                </p>
+
+                <button
+                    class="course-button"
+                    onclick="showCourse('Python Full Stack')">
+
+                    View Course
+
+                </button>
+
+            </div>
+
+
+            <!-- Course 3 -->
+
+            <div class="course-card">
+
+                <div class="course-icon">
+                    🧪
+                </div>
+
+                <h3>
+                    Software Testing
+                </h3>
+
+                <p>
+                    Learn manual testing, automation testing
+                    and software testing concepts.
+                </p>
+
+                <button
+                    class="course-button"
+                    onclick="showCourse('Software Testing')">
+
+                    View Course
+
+                </button>
+
+            </div>
+
+
+            <!-- Course 4 -->
+
+            <div class="course-card">
+
+                <div class="course-icon">
+                    ⚛️
+                </div>
+
+                <h3>
+                    MERN Stack
+                </h3>
+
+                <p>
+                    Learn MongoDB, Express, React and Node.js
+                    for modern web development.
+                </p>
+
+                <button
+                    class="course-button"
+                    onclick="showCourse('MERN Stack')">
+
+                    View Course
+
+                </button>
+
+            </div>
+
+
+            <!-- Course 5 -->
+
+            <div class="course-card">
+
+                <div class="course-icon">
+                    📊
+                </div>
+
+                <h3>
+                    Data Analytics
+                </h3>
+
+                <p>
+                    Learn data analysis, visualization and
+                    important analytical concepts.
+                </p>
+
+                <button
+                    class="course-button"
+                    onclick="showCourse('Data Analytics')">
+
+                    View Course
+
+                </button>
+
+            </div>
+
+
+            <!-- Course 6 -->
+
+            <div class="course-card">
+
+                <div class="course-icon">
+                    🤖
+                </div>
+
+                <h3>
+                    Data Science
+                </h3>
+
+                <p>
+                    Learn Python, data analysis, machine
+                    learning and data science concepts.
+                </p>
+
+                <button
+                    class="course-button"
+                    onclick="showCourse('Data Science')">
+
+                    View Course
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= WHY US ================= -->
+
+    <section class="why-us" id="why-us">
+
+        <div class="section-title">
+
+            <p>WHY CHOOSE US</p>
+
+            <h2>
+                Why Learn With Kiran Academy?
+            </h2>
+
+        </div>
+
+
+        <div class="features">
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    👨‍🏫
+                </div>
+
+                <h3>
+                    Experienced Trainers
+                </h3>
+
+                <p>
+                    Learn programming concepts with
+                    structured guidance.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    💻
+                </div>
+
+                <h3>
+                    Practical Training
+                </h3>
+
+                <p>
+                    Practice concepts by building projects
+                    and solving problems.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    🎯
+                </div>
+
+                <h3>
+                    Career Focused
+                </h3>
+
+                <p>
+                    Develop skills that can help you prepare
+                    for IT career opportunities.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    📚
+                </div>
+
+                <h3>
+                    Learning Support
+                </h3>
+
+                <p>
+                    Get structured learning material and
+                    practice guidance.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact" id="contact">
+
+        <div class="section-title">
+
+            <p>CONTACT US</p>
+
+            <h2>
+                Join Our Demo Class
+            </h2>
+
+            <p class="description">
+                Fill the form and our team can contact you.
+            </p>
+
+        </div>
+
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>
+                    Start Your Learning Journey
+                </h3>
+
+                <p>
+                    Have questions about our courses?
+                    Send us your details.
+                </p>
+
+                <p>
+                    📍 Pune, Maharashtra
+                </p>
+
+                <p>
+                    📞 +91 00000 00000
+                </p>
+
+                <p>
+                    ✉️ info@example.com
+                </p>
+
+            </div>
+
+
+            <form id="contactForm">
+
+                <label>
+                    Your Name
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+
+                <label>
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+
+                <label>
+                    Phone Number
+                </label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Enter your phone number"
+                    required
+                >
+
+
+                <label>
+                    Select Course
+                </label>
+
+                <select id="course" required>
+
+                    <option value="">
+                        Select Course
+                    </option>
+
+                    <option>
+                        Java Full Stack
+                    </option>
+
+                    <option>
+                        Python Full Stack
+                    </option>
+
+                    <option>
+                        Software Testing
+                    </option>
+
+                    <option>
+                        MERN Stack
+                    </option>
+
+                    <option>
+                        Data Analytics
+                    </option>
+
+                    <option>
+                        Data Science
+                    </option>
+
+                </select>
+
+
+                <button
+                    type="submit"
+                    class="btn">
+
+                    Submit
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+
+                <h2>
+                    Kiran Academy
+                </h2>
+
+                <p>
+                    Learn skills. Build projects.
+                    Grow your career.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#courses">
+                    Courses
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            <p>
+                © 2026 Kiran Academy Learning Project
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="project@01.js"></script>
+
+</body>
+
+</html>
